@@ -6,8 +6,11 @@ local function CA_OnModBoot()
 
     -- Adds "AttachmentType" to containers so they can fit on traveler backpack
     instance:getItem("Base.FirstAidKit"):DoParam("AttachmentType", "Bedroll")
+    instance:getItem("Base.FirstAidKit"):DoParam("StaticModel", "LunchBoxMedic_bedroll")
     instance:getItem("Base.FirstAidKit_New"):DoParam("AttachmentType", "Bedroll")
+    instance:getItem("Base.FirstAidKit"):DoParam("StaticModel", "LunchBoxMedic_bedroll")
     instance:getItem("Base.FirstAidKit_Camping"):DoParam("AttachmentType", "Bedroll")
+    instance:getItem("Base.FirstAidKit"):DoParam("StaticModel", "LunchBoxMedic_bedroll")
     instance:getItem("Base.FirstAidKit_Camping_New"):DoParam("AttachmentType", "Bedroll")
     instance:getItem("Base.FirstAidKit_Military"):DoParam("AttachmentType", "Bedroll")
     instance:getItem("Base.FirstAidKit_NewPro"):DoParam("AttachmentType", "Bedroll")
