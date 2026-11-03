@@ -1,7 +1,7 @@
--- Function designed to assign a new attachment type to all containers marked as first aid kits so they can be attached to the bottom of the travle backpacks
+-- Function designed to assign an attachment type and static model to all containers marked as first aid kits so they can be attached to the bottom of the travel backpacks
 local function CA_OnModBoot()
 
-    -- Grabs the most recent instance of the game at time of mod loading
+    -- Grabs the instance manager of the game
     local instance = ScriptManager.instance
 
     -- Adds "AttachmentType" to containers so they can fit on traveler backpack
@@ -10,9 +10,7 @@ local function CA_OnModBoot()
     instance:getItem("Base.FirstAidKit_New"):DoParam("AttachmentType", "Bedroll")
     instance:getItem("Base.FirstAidKit_New"):DoParam("StaticModel", "LunchBoxMedic_bedroll")
     instance:getItem("Base.FirstAidKit_NewPro"):DoParam("AttachmentType", "Bedroll")
-    instance:getItem("Base.FirstAidKit_newPro"):DoParam("StaticModel", "LunchBoxMedic_bedroll")
-    instance:getItem("Base.FirstAidKit_Camping"):DoParam("AttachmentType", "Bedroll")
-    instance:getItem("Base.FirstAidKit"):DoParam("StaticModel", "LunchBoxMedic_bedroll")
+    instance:getItem("Base.FirstAidKit_NewPro"):DoParam("StaticModel", "LunchBoxMedic_bedroll")
     instance:getItem("Base.FirstAidKit_Camping"):DoParam("AttachmentType", "Bedroll")
     instance:getItem("Base.FirstAidKit_Camping"):DoParam("StaticModel", "FirstAidCamping_bedroll")
     instance:getItem("Base.FirstAidKit_Camping_New"):DoParam("AttachmentType", "Bedroll")
