@@ -12,6 +12,64 @@ module Base
             offset = 0.00 0.05 -0.08,
             rotate = 0.0 90.0 90.0,
         }
+        attachment bedroll_bottom_big
+        {
+            offset = 0.00 0.05 -0.08,
+            rotate = 0.0 90.0 90.0,
+        }
+        attachment bedroll_bottom_alice
+        {
+            offset = 0.00 0.05 -0.08,
+            rotate = 0.0 90.0 90.0,
+        }
+
+    }
+
+    model FirstAidCamping_bedroll
+    {
+        mesh = WorldItems/Clothing/FirstAidKit_Camping,
+        texture = Clothes/Bag/FirstAidKit_Camping,
+        scale = 0.4,
+
+        attachment bedroll_bottom
+        {
+            offset = 0.00 0.05 -0.08,
+            rotate = 0.0 90.0 90.0,
+        }
+        attachment bedroll_bottom_big
+        {
+            offset = 0.00 0.05 -0.08,
+            rotate = 0.0 90.0 90.0,
+        }
+        attachment bedroll_bottom_alice
+        {
+            offset = 0.00 0.05 -0.08,
+            rotate = 0.0 90.0 90.0,
+        }
+
+    }
+
+    model FirstAidMilitary_bedroll
+    {
+        mesh = WorldItems/Clothing/FirstAidKit_Military,
+        texture = Clothes/Bag/FirstAidKit_Military,
+        scale = 0.4,
+
+        attachment bedroll_bottom
+        {
+            offset = 0.00 0.05 -0.08,
+            rotate = 0.0 90.0 90.0,
+        }
+        attachment bedroll_bottom_big
+        {
+            offset = 0.00 0.05 -0.08,
+            rotate = 0.0 90.0 90.0,
+        }
+        attachment bedroll_bottom_alice
+        {
+            offset = 0.00 0.05 -0.08,
+            rotate = 0.0 90.0 90.0,
+        }
 
     }
 
