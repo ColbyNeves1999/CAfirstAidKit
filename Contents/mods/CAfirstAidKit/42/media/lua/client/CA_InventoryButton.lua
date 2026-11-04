@@ -10,8 +10,8 @@ local function CA_AddAttachedButtons(page, reason)
         -- Iterates through the player's inventory and checks each item to see if it is a container and if it is attached to a slot on the player, then adds a button for it
 		for i = 0, it:size()-1 do
 			local item = it:get(i)
-			if instanceof(item, "InventoryContainer") and item:getAttachedSlot() ~= -1 then
-				-- found a container, so create a button for it...
+			if instanceof(item, "InventoryContainer") and item:getAttachedSlot() ~= -1 and item:isEquipped() ~= true then
+				-- found a container, so create a button for it.
 				page:addContainerButton(item:getInventory(), item:getTex(), item:getName(), item:getName())
 			end
 		end
