@@ -27,6 +27,9 @@ A Project Zomboid (Build 42) mod that lets you attach medical kits to the bottom
    - macOS: `~/Zomboid/mods/`
 2. Enable **CAfirstAidKit** in the game's Mods menu, and in the mod list for your save.
 3. Fully restart the game after enabling or updating it. Item and model changes only load at startup.
+
+**Steam Workshop Download Pending**
+
 ## How it works
  
 No vanilla files are edited. Everything is patched from the mod's own files at load time.
